@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-family:  'Outfit', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .btn {
+    padding: 12px 32px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .btn-light {
+    background: rgb(255, 255, 255, .2);
+  }
+
+  .btn:hover {
+    background: rgb(255, 255, 255, .2);
+  }
+
+  /* code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  } */

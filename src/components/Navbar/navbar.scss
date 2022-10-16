@@ -1,0 +1,46 @@
+.navbarPage {
+
+    
+    header {
+    /* border: 3px solid red; */
+    background-color: #3c3892;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 5%;
+}
+
+
+
+a {
+   font-weight: 500;
+   font-size: 18px;
+   /* background-color: #4847DA; */
+   color: white;
+   text-decoration: none;
+   padding: 5px;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display:inline-block;
+    padding: 8px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 8s;
+}
+
+.nav-links li a:hover {
+    color: white;
+}
+
+}
