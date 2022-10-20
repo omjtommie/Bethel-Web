@@ -9,7 +9,7 @@ body {
   box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
+    background-color: white;
     font-family:  'Outfit', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -20,22 +20,34 @@ body {
   }
 
   a {
+    color: white;
+    // font-weight: 500;
+    // font-size: larger;
     text-decoration: none;
   }
 
-  .btn {
-    padding: 12px 32px;
-    font-size: 1.2rem;
-    cursor: pointer;
+  h1, h4 ,p {
+    color: rgb(255, 255, 255);
   }
 
-  .btn-light {
-    background: rgb(255, 255, 255, .2);
+  span {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
   }
 
-  .btn:hover {
-    background: rgb(255, 255, 255, .2);
-  }
+  // .btn {
+  //   padding: 12px 32px;
+  //   font-size: 1.2rem;
+  //   cursor: pointer;
+  // }
+
+  // .btn-light {
+  //   background: rgb(255, 255, 255, .2);
+  // }
+
+  // .btn:hover {
+  //   background: rgb(255, 255, 255, .2);
+  // }
 
   /* code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
