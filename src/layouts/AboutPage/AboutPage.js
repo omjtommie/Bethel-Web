@@ -14,7 +14,7 @@ const AboutPage = () => {
           <h1> We care, God heals. </h1>
           <p>
             {" "}
-            lola Bethel Hospital is a private medical center located in Lagos, Nigeria. 
+            Owolola Bethel Hospital is a private medical center located in Lagos, Nigeria. 
             We are the healthcare facility of choice for Lagos communities and its surroundings.
             <br></br>
             <br></br>
