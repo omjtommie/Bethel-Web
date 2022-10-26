@@ -1,10 +1,31 @@
-.servicescardPage {
+.aboutvmvPage {
+
+    .aboutvmv {
+        align-items: center;
+        // text-align: center;
+    }
+
+    .aboutvmv h1 {
+        font-size: 40px;
+        color: black;
+        // line-height: 2;
+        padding: 2rem 0rem;
+        text-align: center;
+    }
+  
     
+    .aboutvmv p {
+        color:black;
+        font-size: 22px;
+        padding: 0rem 18rem;
+        text-align: center;
+    }
+
     .box-container {
         display: grid;
         // grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
         grid-template-columns: repeat(3, 1fr );
-        gap: 30px;
+        // gap: 0px;
         padding: 0;
         margin: auto;
         max-width: 1650px;
@@ -17,24 +38,18 @@
     }
 
     .box-container .box {
-         background: white;
+         background: #3c3892;
          border-radius: 10px;
-         box-shadow: 2px 2px 5px black;
-         border: 1px solid whitesmoke;
+        //  box-shadow: 2px 2px 5px black;
+         border: 5px solid whitesmoke;
          padding: 1.5rem;
         //  height: 40%;
         //  width: 100%;
     }
 
-    // .box:hover {
-    //     background-color: #e2e2e2;
-    //     cursor: pointer;
-    //     transition: 0.3s;
-
-    // }
 
     .box-container .box h3 {
-        color: black;
+        color: white;
         line-height: 4rem;
         text-align: center;
         font-size: 2rem;
@@ -42,13 +57,26 @@
     }
 
     .box-container .box p {
-        color: black;
+        color: white;
         font-size: 1.5rem;
         text-align: center;
         // padding: 1rem 0;
     }
+    
 
+    @media screen and (max-width: 1140px) {
 
+        .aboutvmv h1 {
+            padding: 2rem 0rem 0rem 0rem;
+            font-size: 25px;
+        }
+
+        .aboutvmv p {
+            padding: 0rem 2rem;
+            font-size: 20px;
+        }
+
+    }
 
     @media screen and (max-width: 980px) {
         .box-container {
@@ -69,21 +97,20 @@
         }
         
         .box-container .box h3 {
-            color: black;
-            line-height: 2rem;
+            color: white;
+            // line-height: 2rem;
             // border: 5px solid red;
             text-align: center;
             font-size: 1.5rem;
-            // padding: 1rem 0;
+            padding: 10px 0;
         }
     
         .box-container .box p {
-            color: black;
+            color: white;
             font-size: 1.2rem;
             text-align: center;
             // padding: 1rem 0;
         }
 
      }
-
 }
