@@ -1,4 +1,5 @@
 import AboutHeroImg from "../../components/AboutHeroImg/AboutHeroImg";
+import AboutVMV from "../../components/AboutVMV/AboutVMV";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 import "./aboutPage.scss";
@@ -9,6 +10,8 @@ const AboutPage = () => {
     <div className="aboutPage">
       <Navbar />
       <AboutHeroImg heading="About Us" />
+      <AboutVMV />
+
       <div className="about">
         <div className="left">
           <h1> We care, God heals. </h1>

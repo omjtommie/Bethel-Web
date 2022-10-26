@@ -31,6 +31,15 @@ const ServicesCards = () => {
                 <h3> 24 Hrs Emergency Service </h3>
                 <p> We are committed to getting our patient medial treatment as quickly and efficiently as possible.</p>
             </div>
+            <div className="box">
+                <h3> Immunization </h3>
+                <p> We offer immunization to children every 2nd Friday & Last Saturday of every month. </p>
+            </div>
+            
+            <div className="box">
+                <h3> Laboratory Investigations </h3>
+                <p> We run lab tests and investigations on our patients. </p>
+            </div>
         </div>
      </div>
     );

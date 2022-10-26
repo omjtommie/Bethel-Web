@@ -1,21 +1,21 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Bethel Web",
+  "name": "Bethel Hospital",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "Logo.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "Logo.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "292x292"
     },
     {
-      "src": "logo512.png",
+      "src": "Logo.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "612x612"
     }
   ],
   "start_url": ".",
